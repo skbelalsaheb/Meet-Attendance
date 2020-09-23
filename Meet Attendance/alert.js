@@ -36,7 +36,9 @@ var studentName=item.getElementsByClassName("YTbUzc").item(0).innerHTML;
 var studentRoll=item.getElementsByClassName("oIy2qc").item(0).innerHTML;
 var time =item.getElementsByClassName("MuzmKe").item(0).innerHTML;
 if (studentRoll.length==4){
+ if(isNumeric(studentRoll) == true){
     studData.push(studentRoll +"~"+ studentName +"~"+time);
+}
 }
 }
 if(studData.length==0){
