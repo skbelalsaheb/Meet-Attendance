@@ -37,7 +37,7 @@ var studentRoll=item.getElementsByClassName("oIy2qc").item(0).innerHTML;
 var time =item.getElementsByClassName("MuzmKe").item(0).innerHTML;
 if (studentRoll.length==4){
 
-    if(isNumeric(studentRoll)==true && (studentRoll.startsWith("17") || studentRoll.startsWith("26"))){
+    if(isNumeric(studentRoll)==true && (studentRoll.startsWith("17") || studentRoll.startsWith("27") || studentRoll.startsWith("26"))){
     studData.push(studentRoll +"~"+ studentName +"~"+time);
     }
 }
