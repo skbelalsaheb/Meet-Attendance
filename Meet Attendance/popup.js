@@ -6,9 +6,11 @@
 // var app = chrome.runtime.getBackgroundPage();
 
 function hello() {
-    chrome.tabs.executeScript({
-      file: 'alert.js'
-    }); 
+  var config = {rolls:document.getElementById("rolls").value};
+  chrome.tabs.executeScript({
+      code: 'var config = ' + JSON.stringify(config)
+  }, function() {
+      chrome.tabs.executeScript({file: 'alert.js'});
+  }); 
   }
-  
   document.getElementById('clickme').addEventListener('click', hello);
