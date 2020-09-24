@@ -8,7 +8,7 @@
 function hello() {
   var config = {rolls:document.getElementById("rolls").value};
   chrome.tabs.executeScript({
-      code: 'var config = ' + JSON.stringify(config)
+      code: 'var configj = ' + JSON.stringify(config)
   }, function() {
       chrome.tabs.executeScript({file: 'alert.js'});
   }); 
