@@ -7,7 +7,7 @@
   "version": "1.0",
 
   "permissions": [
-    "tabs", "<all_urls>"
+    "tabs", "<all_urls>","notifications"
   ],
   "icons": { "32":"graph.png" },
   "browser_action": {
