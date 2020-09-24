@@ -26,7 +26,6 @@ var studMsg=document.getElementsByClassName("GDhqjd");
 tbl  = document.createElement('table');
 tbl.style.width  = '100px';
 var config=configj.rolls;
-alert(configj.rolls);
 if(config.endsWith(",")){
    alert("Sorry please remove the unnecessary comma (,) in the end");
    return 0;
