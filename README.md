@@ -1,37 +1,25 @@
-## Google Meet Attendance from meet chatbox
+## A chrome extension for take Attendance from google meet chatbox
 
-You can use the [editor on GitHub](https://github.com/skbelalsaheb/Meet-Attendance/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This extension is intended to help teachers, who are rapidly transitioning to the new reality of online classes and need a simple(r) way to record who joined a Google Meet session. It's not efficient for other meetings because it will take attendance based on your meet chatbox data.Student should give their roll no in meet messagebox and our extension will automatically detect students roll number, it does not matter how many messages in your google meet chatbox , it will give you a excel sheet which will contain students roll number in assending order. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The extension does not require extra permissions other than access to meet.google.com. All of the source code can be viewed at this public repository.
+As per the license, it is free to use but you can sponsor future development by (7430098976@paytm).
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Installation
+First, install it by going to my [github page](https://github.com/skbelalsaheb/Meet-Attendance) Download the zip and unzip it then go to your 
+chrome setting --> extension --> Turn on the developer mode --> click on load unpacked --> now select the folder you unziped until you see it showig blank. now boom you have succsessfully installed our extenssion.
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+Developed by Sk Belal Saheb [Student of midnapore college (Autonomous)](https://www.linkedin.com/in/sk-belal-saheb)
+Project idea Dr. Krishna gopal dhal
+published by E-cell Midnapore College
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Feedback
+Please enter issues and constructive feedback on the issues page. I will do my best to reply to feature requests or support issues as quickly as possible but please understand that my students (and home-life) come first. Kudos would be nice too!
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/skbelalsaheb/Meet-Attendance/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+I hope that you find this to be useful
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with Pages? mail us at skbelalsaheb@gmail.com
