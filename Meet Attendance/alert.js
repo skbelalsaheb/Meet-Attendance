@@ -24,7 +24,8 @@ function main(){
 
 var studMsg=document.getElementsByClassName("GDhqjd");
 tbl  = document.createElement('table');
-tbl.style.width  = '100px';
+tbl.style.width  = '200px';
+tbl.style.alignContent="center"
 var config=configj.rolls;
 var digit=configj.digit;
 if(config.endsWith(",")){
@@ -69,16 +70,19 @@ else {
             var td = tr.insertCell();
             td.appendChild(document.createTextNode(finalData[0]));
             td.style.border = '1px solid black';
-            td.style.fontSize = "20px";
+            td.style.textAlign="center";
 
             var td = tr.insertCell();
             td.appendChild(document.createTextNode(finalData[1]));
             td.style.border = '1px solid black';
+            td.style.padding = "15px";
+             td.style.textAlign="center";
 
             var td = tr.insertCell();
             td.appendChild(document.createTextNode(finalData[2]));
             td.style.border = '1px solid black';
-
+            td.style.padding = "15px";
+             td.style.textAlign="center";
         }
         var html = tbl.outerHTML;
         var today = new Date();
