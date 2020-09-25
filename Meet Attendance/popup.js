@@ -6,7 +6,8 @@
 // var app = chrome.runtime.getBackgroundPage();
 
 function hello() {
-  var config = {rolls:document.getElementById("rolls").value};
+  var config = {rolls:document.getElementById("rolls").value,
+  digit:document.getElementById("digit").value};
   chrome.tabs.executeScript({
       code: 'var configj = ' + JSON.stringify(config)
   }, function() {

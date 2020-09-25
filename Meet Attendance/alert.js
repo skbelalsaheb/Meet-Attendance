@@ -26,9 +26,14 @@ var studMsg=document.getElementsByClassName("GDhqjd");
 tbl  = document.createElement('table');
 tbl.style.width  = '100px';
 var config=configj.rolls;
+var digit=configj.digit;
 if(config.endsWith(",")){
    alert("Sorry please remove the unnecessary comma (,) in the end");
    return 0;
+}
+if(isNumeric(digit)==false){
+    alert("Sorry no of digit of roll number must be integer");
+    return 0;
 }
 tbl.style.border = '1px solid black';
 let studData=[];
@@ -43,7 +48,7 @@ else {
             var studentName = item.getElementsByClassName("YTbUzc").item(0).innerHTML;
             var studentRoll = item.getElementsByClassName("oIy2qc").item(0).innerHTML.trim();
             var time = item.getElementsByClassName("MuzmKe").item(0).innerHTML;
-            if (studentRoll.length == 4) {
+            if (studentRoll.length == digit.trim()) {
                 for (i = 0; i < ValidRolls.length; i++) {
                     if (isNumeric(studentRoll) == true && studentRoll.startsWith(ValidRolls[i].trim())) {
                         studData.push(studentRoll + "~" + studentName + "~" + time);
