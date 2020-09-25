@@ -9,11 +9,10 @@ As per the license, it is free to use but you can sponsor future development by 
 First, install it by going to my [github page](https://github.com/skbelalsaheb/Meet-Attendance) Download the zip and unzip it then go to your 
 chrome setting --> extension --> Turn on the developer mode --> click on load unpacked --> now select the folder you unziped until you see it showig blank. now boom you have succsessfully installed our extenssion.
 
-```markdown
+### Description
 Developed by Sk Belal Saheb [Student of midnapore college (Autonomous)](https://www.linkedin.com/in/sk-belal-saheb)
 Project idea Dr. Krishna gopal dhal
-published by E-cell Midnapore College
-```
+published by E-cell Midnapore College(Autonomous)
 
 ### Feedback
 Please enter issues and constructive feedback on the issues page. I will do my best to reply to feature requests or support issues as quickly as possible but please understand that my students (and home-life) come first. Kudos would be nice too!
