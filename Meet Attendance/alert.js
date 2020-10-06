@@ -21,7 +21,6 @@
 // newWin.print();
 // newWin.close();
 function main(){
-
 var studMsg=document.getElementsByClassName("GDhqjd");
 tbl  = document.createElement('table');
 tbl.style.width  = '200px';
@@ -47,13 +46,15 @@ else {
     if (studMsg.length >= 1) {
         for (let item of studMsg) {
             var studentName = item.getElementsByClassName("YTbUzc").item(0).innerHTML;
-            var studentRoll = item.getElementsByClassName("oIy2qc").item(0).innerHTML.trim();
-            var time = item.getElementsByClassName("MuzmKe").item(0).innerHTML;
-            if (studentRoll.length == digit.trim()) {
-                for (i = 0; i < ValidRolls.length; i++) {
-                    if (isNumeric(studentRoll) == true && studentRoll.startsWith(ValidRolls[i].trim())) {
-                        studData.push(studentRoll + "~" + studentName + "~" + time);
-                        break;
+            var studentRoll = item.getElementsByClassName("oIy2qc");
+            for (item1 of studentRoll) {
+                var time = item.getElementsByClassName("MuzmKe").item(0).innerHTML;
+                if (item1.innerHTML.trim().length == digit.trim()) {
+                    for (i = 0; i < ValidRolls.length; i++) {
+                        if (isNumeric(item1.innerHTML) == true && item1.innerHTML.startsWith(ValidRolls[i].trim())) {
+                            studData.push(item1.innerHTML + "~" + studentName + "~" + time);
+                            break;
+                        }
                     }
                 }
             }
